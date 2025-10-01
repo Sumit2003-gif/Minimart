@@ -11,6 +11,7 @@ import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
 import BlogCards from './Components/BlogCards'
 import SingleBlog from './Components/SingleBlog'
+import ScrollToTop from './Components/ScrollTop'
 function App() {
   const [count, setCount] = useState(0)
     const Icons = [
@@ -36,6 +37,7 @@ function App() {
   return (
     <>
       <div>
+        <ScrollToTop/>
         <Navbar/>
          <div className="bg-gray-100 py-6">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

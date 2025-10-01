@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaEnvelope,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ const Contact = () => {
     <div className="max-w-7xl mx-auto px-4 py-12">
       {/* Breadcrumb */}
       <div className="text-sm text-gray-500 mb-6 flex items-center gap-2">
-        <p>HOME</p>
+        <Link to='/' className='cursor-pointer hover:text-orange-500'><p>HOME</p></Link>
         <div className="w-2 h-2 bg-gray-400 rotate-45" />
         <p className="text-black font-semibold">CONTACT</p>
       </div>

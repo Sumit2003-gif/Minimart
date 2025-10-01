@@ -8,6 +8,7 @@ import {
   FaPinterestP,
   FaInstagram,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ProfileCard = ({ image, name, title, description, phone, email, socialLinks = {} }) => {
   return (
@@ -140,7 +141,7 @@ const About = () => {
     <div className="px-4 sm:px-10 py-10 max-w-7xl mx-auto">
       {/* Breadcrumb */}
       <div className="text-sm text-gray-500 mb-4 flex items-center gap-2">
-        <p>Home</p>
+        <Link to='/' className='cursor-pointer hover:text-orange-500'><p>Home</p></Link>
         <div className="w-2 h-2 bg-gray-400 rotate-45" />
         <p className="text-black">About</p>
       </div>
