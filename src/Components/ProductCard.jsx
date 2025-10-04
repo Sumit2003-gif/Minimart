@@ -25,7 +25,7 @@ const ProductCard = ({ title, price, defaultImage, hoverImage }) => {
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="bg-black/70 w-full h-full flex items-center justify-center">
             <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-              <button className="bg-white text-black px-6 py-3 text-sm font-medium uppercase tracking-wider transform transition-transform duration-300 hover:scale-105 hover:bg-gray-100">
+              <button className="bg-white cursor-pointer text-black px-6 py-3 text-sm font-medium uppercase tracking-wider transform transition-transform duration-300 hover:scale-105 hover:bg-gray-100">
                 Quick View
               </button>
             </Link>
@@ -40,7 +40,7 @@ const ProductCard = ({ title, price, defaultImage, hoverImage }) => {
         
         {/* Add to cart button */}
         <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <button className="w-full bg-gradient-to-r from-gray-900 to-black text-white py-3 text-sm font-medium uppercase tracking-wider transition-all duration-300 hover:from-gray-800 hover:to-gray-900 transform hover:scale-[1.02]">
+          <button className="w-full cursor-pointer bg-gradient-to-r from-gray-900 to-black text-white py-3 text-sm font-medium uppercase tracking-wider transition-all duration-300 hover:from-gray-800 hover:to-gray-900 transform hover:scale-[1.02]">
             Add to Cart
           </button>
         </Link>

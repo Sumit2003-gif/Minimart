@@ -20,8 +20,10 @@ const ProductCard = ({ title, price, defaultImage, hoverImage }) => {
         />
         
         {/* Quick View Button */}
-        <div className={`absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
-          <button className="bg-white text-gray-900 px-4 py-2 rounded-md text-sm font-medium transform transition-transform duration-300 hover:scale-105">
+        <div
+        onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}
+        className={`absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+          <button className="bg-white text-gray-900 px-4 cursor-pointer py-2 rounded-md text-sm font-medium transform transition-transform duration-300 hover:scale-105">
             Quick View
           </button>
         </div>
@@ -63,7 +65,7 @@ const NewArrivals = () => {
       id: 2,
       title: "Luxury Sofa Set",
       price: 1299.99,
-      defaultImage: "https://images.unsplash.com/photo-1555041469-a406c8c0a9a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      defaultImage: "https://images.pexels.com/photos/34086242/pexels-photo-34086242.jpeg",
       hoverImage: "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -71,14 +73,14 @@ const NewArrivals = () => {
       title: "Elegant Dining Table",
       price: 899.99,
       defaultImage: "https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      hoverImage: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      hoverImage: "https://images.pexels.com/photos/34108091/pexels-photo-34108091.jpeg"
     },
     {
       id: 4,
       title: "Contemporary Bookshelf",
       price: 449.99,
-      defaultImage: "https://images.unsplash.com/photo-1594621255049-792d5c9c2bfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      hoverImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      defaultImage: "https://images.pexels.com/photos/34149049/pexels-photo-34149049.jpeg",
+      hoverImage: "https://images.pexels.com/photos/34144827/pexels-photo-34144827.jpeg"
     }
   ];
 

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const LatestNews = () => {
   const BlogCardsData = [
     {
-      url: "https://nuranium-furniture.myshopify.com/cdn/shop/articles/blog7_870x.jpg?v=1613704509",
+      url: "https://images.pexels.com/photos/128611/pexels-photo-128611.jpeg",
       text: "Portable orangetooth Speaker with Light up Logo",
       date: "17",
       month: "Nov",
@@ -19,7 +19,7 @@ const LatestNews = () => {
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni...",
     },
     {
-      url: "https://nuranium-furniture.myshopify.com/cdn/shop/articles/blog6_870x.jpg?v=1613704486",
+      url: "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg",
       text: "Stylish Home Decor Ideas in Budget",
       date: "10",
       month: "Oct",
@@ -29,7 +29,7 @@ const LatestNews = () => {
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...",
     },
     {
-      url: "https://nuranium-furniture.myshopify.com/cdn/shop/articles/blog5_870x.jpg?v=1613704462",
+      url: "https://images.pexels.com/photos/4194713/pexels-photo-4194713.jpeg",
       text: "Modern Interior Tips to Brighten Your Home",
       date: "28",
       month: "Sep",
