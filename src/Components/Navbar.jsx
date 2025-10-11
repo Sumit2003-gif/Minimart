@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="bg-[#0b162c] text-white px-4 sm:px-6 py-3 sm:py-4 shadow-md">
+    <header className="sticky top-0 z-50 bg-[#0b162c] text-white px-4 sm:px-6 py-3 sm:py-4 shadow-md">
       
       {/* Top Section */}
       <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
